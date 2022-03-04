@@ -2,10 +2,10 @@
 A terrain generator made for an advanced graphics assignment using C++ and openGL.
 
 ## Note: this project will require Microsoft Visual Studio to build and run.
-In case errors occur, or building/running is not desired, sample outputs can be found in .png files in the root directory:
+In case errors occur, or building/running is not desired, sample outputs can be found in .png files in the root directory, or embedded at the bottom of this readme:
 1. capture1.PNG shows a sample output from running the executable with no options.
 2. capture2.PNG shows a sample output from running the executable with the following command: terrainGenerator 6 6 513 513 1 2 4 1
-3. wireFrameMode.PNG shows a closer view of capture1, but in wireframe mode so that all of the triangles are on display.
+3. wireFrameMode.PNG shows a closer view of a sample output, and in wireframe mode so that all of the triangles can be seen.
 
 ## Project Features:
 1. Fractal height map generation using the diamond-square algorithm
@@ -21,3 +21,8 @@ To run the program, simply type “terrainGenerator” into a command prompt wit
 Please note that resolution inputs must be (2^n) +1 for the algorithm to work properly.
 
 Once the window has opened with the 3D terrain, the asdw keys can be used to move around, the mouse can be used to look around, and the shift/spacebar buttons can be used to go down and up respectively.
+
+## Sample Outputs:
+![capture1.png: running the executable with no additional options](capture1.PNG)
+![capture2.png: running the executable using "terrainGenerator 6 6 513 513 1 2 4 1"](capture2.PNG)
+![wireFrameMode.png: zooming in on a generated terrain, wireframe mode enabled](wireFrameMode.PNG)
